@@ -1,0 +1,29 @@
+<html lang="uk-UA">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>Daniel QQ</title>
+</head>
+<body>
+    <!--h1 id="h1" style="color: blue"-->
+    <h1 id="h1" style="color: #0000FF">
+        Click to change color
+    </h1>
+    <script>
+        window.onload = () => onloadProject();
+        function onloadProject() {
+            let j=0;
+            let i=0;
+            let h1=document.getElementById('h1');
+            h1.onclick = function () {
+                console.log(h1);
+                console.log(h1.style);
+                console.log(h1.style.cssText);
+                h1.style.color = '#' + (j * 3).toString() +'0'+ (i * 3).toString()  + '082';
+                h1.innerHTML += '<br>hihi';
+                i++;
+                j++;
+            }
+        }
+    </script>
+</body>

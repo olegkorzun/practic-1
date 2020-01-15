@@ -1,0 +1,35 @@
+
+#game {
+    width: 200px;
+    height: 200px;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 2px solid white;
+    box-sizing: border-box;
+    background: pink;
+}
+
+#b0 {
+    border-radius: 100% 0 0 0;
+    background: #D7D700;
+}
+
+#b1 {
+    border-radius: 0 100% 0 0;
+    background: green;
+}
+
+
+#b2 {
+    border-radius: 0 0 0 100%;
+    background: #0000AF;
+}
+
+#b3 {
+    border-radius: 0 0 100% 0;
+    background: #CD0000;
+}
